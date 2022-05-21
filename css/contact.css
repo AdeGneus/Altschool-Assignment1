@@ -1,0 +1,13 @@
+.contact {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.section__about--heading {
+  color: #e0e0e2;
+  padding-top: 1.5rem;
+}
+
+.container {
+  padding-bottom: 0;
+}

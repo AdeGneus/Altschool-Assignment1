@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome icon -->
+    <script
+      src="https://kit.fontawesome.com/a5eb5dbeac.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1 class="header__logo">
+          <a href="../index.html" class="logo"
+            ><span class="big">W</span>asiu Bakare<span class="dot">.</span></a
+          >
+        </h1>
+
+        <nav class="main__nav">
+          <ul class="main__nav--links">
+            <li class="main__nav--item">
+              <a href="../index.html" class="main__nav--link">About</a>
+            </li>
+            <li class="main__nav--item">
+              <a href="contact.html" class="main__nav--link" id="active-link"
+                >Contact</a
+              >
+            </li>
+            <li class="main__nav--item">
+              <a href="./register.html" class="main__nav--link">Register</a>
+            </li>
+            <li class="main__nav--item">
+              <a href="./login.html" class="main__nav--link">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="contact">
+        <h2 class="section__about--heading">
+          <span class="head">C</span>ontact
+        </h2>
+        <form class="form">
+          <div class="form-control">
+            <div class="input-control">
+              <input type="text" placeholder="name" class="input" required />
+              <input type="email" placeholder="email" class="input" required />
+            </div>
+            <textarea
+              name="message"
+              class="message"
+              cols="30"
+              rows="10"
+              placeholder="Your message..."
+              required
+            ></textarea>
+            <select name="priority" class="priority">
+              <option value="">--Priority--</option>
+              <option value="casual">Casual</option>
+              <option value="urgent">Urgent</option>
+              <option value="important">Important</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">
+            Submit <i class="fa fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

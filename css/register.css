@@ -1,0 +1,55 @@
+.register {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.section__about--heading {
+  color: #e0e0e2;
+  padding-top: 1.5rem;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+  background-color: #ff9800;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: 0;
+  width: 70%;
+}
+
+.icon {
+  color: #ffffff;
+}
+
+.field > input {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.field > input {
+  display: block;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 0;
+  border: 1px solid #ff9800;
+}
+
+.field > input:focus {
+  outline: 0;
+}
+
+.field > input::placeholder {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-family: cursive;
+  color: #ff9800;
+}
+
+.register .btn {
+  margin-top: 1.5rem;
+}
